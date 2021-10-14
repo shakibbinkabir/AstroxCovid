@@ -3,9 +3,11 @@ $(".cimg").hide();
 var check=0
 
 $(".yes").click(function(){
+    // check = Math.abs(check+1);
     check=check+1;
 });
 $(".no").click(function(){
+    // check = Math.abs(check-1);
     check=check-1;
 });
 
@@ -80,6 +82,25 @@ $(".btn").click(function() {
         $(".ques").hide();
         $(".cimg").hide();
         $(".btn-long").hide();
+        if (check <= -4){
+            $(".lowrisk").show();
+        }
+        if (check <= 3 && check >= -3){
+            $(".mediumrisk").show();
+        }
+        if (check >= 4){
+            $(".highrisk").show();
+        }
+     
     }
 });
+
+
+
+if (question_count < 12){
+        $(".lowrisk").hide();
+        $(".mediumrisk").hide();
+        $(".highrisk").hide();
+        
+    }
 

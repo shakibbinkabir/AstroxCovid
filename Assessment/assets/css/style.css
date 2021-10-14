@@ -66,6 +66,21 @@ body{
     width: auto;
     transition: 0.1s;
 }
+.form .lowrisk, .mediumrisk, .highrisk{
+    display: none;
+}
+.form .lowrisk img{
+    height: 50px;
+    width: auto;
+}
+.form .mediumrisk img{
+    height: 50px;
+    width: auto;
+}
+.form .highrisk img{
+    height: 50px;
+    width: auto;
+}
 .fit{
     background-repeat: no-repeat;
     background-position: center;
