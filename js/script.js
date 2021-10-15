@@ -16,7 +16,7 @@ $(document).ready(function(){
         $('.scroll-top').hide();
       }
 
-      // scroll spy 
+
 
       
     $('section').each(function(){
@@ -35,7 +35,8 @@ $(document).ready(function(){
 
     });
 
-    // smooth scrolling
+
+
 
     $('a[href*="#"]').on('click',function(e){
 

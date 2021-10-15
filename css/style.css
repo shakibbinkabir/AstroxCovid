@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 @import url('https://fonts.maateen.me/siyam-rupali/font.css');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
     --red:#FF4F5B;
 }
 
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
@@ -86,7 +88,6 @@ section{
     color:var(--red);
 }
 
-
 header{
     width:100%;
     background: #fff;
@@ -123,7 +124,13 @@ header .navbar ul li{
 header .navbar ul li a{
     color:#999;
     font-size: 2rem;
+    font-family: 'Hind Siliguri', sans-serif;
 }
+header .navbar .switcher a{
+    color:#999;
+    font-size: 2rem;
+}
+
 
 header .navbar ul li a.active,
 header .navbar ul li a:hover{
@@ -172,7 +179,7 @@ header .navbar ul li a:hover{
 .home .content span{
     color:#666;
     font-style: normal;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -408,8 +415,9 @@ header .navbar ul li a:hover{
 .footer .box-container .box h3{
     font-size: 2.5rem;
     color:#fff;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
     font-weight: normal;
+    font-family: 'Hind Siliguri', sans-serif;
 }
 
 .footer .box-container .box p{
@@ -427,7 +435,7 @@ header .navbar ul li a:hover{
 .footer .box-container .box a{
     font-size: 1.5rem;
     color:#ccc;
-    padding:1rem 0;
+    padding:0.5rem 0;
     display: block;
 }
 
@@ -442,8 +450,8 @@ header .navbar ul li a:hover{
 }
 
 .footer .box-container .box .share a{
-    height:4rem;
-    width:4rem;
+    height:3rem;
+    width:3rem;
     line-height: 2rem;
     text-align: center;
     border-radius: 5rem;
@@ -492,8 +500,6 @@ header .navbar ul li a:hover{
 
 
 
-
-/* media queries  */
 
 @media (max-width:991px){
 
